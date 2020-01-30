@@ -1,2 +1,4 @@
-@import "~@ag-grid-community/core/dist/styles/ag-grid.css";
-@import "~@ag-grid-community/core/dist/styles/ag-theme-balham.css";
+$ag-odd-row-background-color: #CFD8DC;
+
+@import "../node_modules/@ag-grid-community/core/dist/styles/ag-grid.scss";
+@import "../node_modules/@ag-grid-community/core/dist/styles/ag-theme-balham/sass/ag-theme-balham.scss";

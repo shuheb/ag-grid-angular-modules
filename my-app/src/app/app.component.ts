@@ -4,6 +4,7 @@ import {LicenseManager} from '@ag-grid-enterprise/core';
 import {ClipboardModule} from '@ag-grid-enterprise/clipboard';
 import {ClientSideRowModelModule} from '@ag-grid-community/client-side-row-model';
 import {MenuModule} from '@ag-grid-enterprise/menu';
+import {CsvExportModule} from '@ag-grid-community/csv-export';
 
 @Component({
   selector: 'app-root',
@@ -25,5 +26,5 @@ export class AppComponent {
     { make: 'Porsche', model: 'Boxter', price: 72000 }
   ];
 
-   modules = [ClientSideRowModelModule, ClipboardModule, MenuModule];
+   modules = [ClientSideRowModelModule, ClipboardModule, MenuModule, CsvExportModule];
 }
